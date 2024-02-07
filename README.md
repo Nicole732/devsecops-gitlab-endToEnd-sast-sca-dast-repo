@@ -1,5 +1,3 @@
-# devsecops-gitlab-endToEnd-sast-sca-dast-repo
-
 # Vulnado - Intentionally Vulnerable Java Application Modified by A Security Guru
 
 This application and exercises will take you through some of the OWASP top 10 Vulnerabilities and how to prevent them. We will also use this application to implement an end-to-end DevSecOps pipeline using Gitlab.
@@ -26,7 +24,7 @@ The docker network created by `docker-compose` maps pretty well to a multi-tier 
 * [SSRF - Server Side Request Forgery](exercises/03-ssrf.md)
 * [RCE - Remote Code Execution & Reverse Shell](exercises/04-rce-reverse-shell.md)
 
-## DevSecOps Pipeline using Gitlab
+## DevSecOps Pipeline using Gitlab with SCA, SAST and DAST
 
 To implement a DevSeCops pipeline for this Java project using Gitlab:
 
